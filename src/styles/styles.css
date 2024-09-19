@@ -72,7 +72,15 @@
 .inner-link-item-dashboard-active > p {
   color: var(--primary-dark-blue) !important;
 }
-
+.inner-link-item-dashboard-active::after {
+  content: "";
+  width: 0.5rem;
+  height: 60px;
+  background-color: var(--primary-dark-blue);
+  position: absolute;
+  right: 0;
+  border-radius: 12px;
+}
 /* main */
 .main-dashboard {
   padding: var(--padding-dashboard-main);
@@ -144,6 +152,10 @@
 .footer-select-dashboard {
   border: var(--secondary-border-input);
   background-color: var(--quaternary-dim-gray);
+  border-radius: 0.5rem;
+}
+.divider {
+  background-color: var(--divider);
 }
 /* take care aside */
 @media screen and (max-width: 800px) {

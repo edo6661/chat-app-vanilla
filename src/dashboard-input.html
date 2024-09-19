@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard User</title>
+    <title>Dashboard Input</title>
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,17 +40,17 @@
       </div>
       <div class="container-link-item-dashboard flex-column gap-4">
         <a
-          href="dashboard-input.html"
-          class="inner-link-item-dashboard flex-items-center p-3 gap-4"
-        >
-          <img src="images/data.png" alt="data-histogram" />
-          <p class="poppins-medium">Data Input</p>
-        </a>
-        <a
           href="#"
           class="inner-link-item-dashboard-active flex-items-center p-3 gap-4"
         >
-          <img src="images/colored-user-group.png" alt="user-group" />
+          <img src="images/colored-data.png" alt="data-histogram" />
+          <p class="poppins-medium">Data Input</p>
+        </a>
+        <a
+          href="dashboard-user.html"
+          class="inner-link-item-dashboard flex-items-center p-3 gap-4"
+        >
+          <img src="images/user-group.png" alt="user-group" />
           <p class="poppins-medium">Data User</p>
         </a>
       </div>
@@ -108,12 +108,11 @@
               </tbody>
             </table>
             <hr class="mt-4 divider" />
-
             <div
               class="pl-4 pt-4 flex-items-center gap-4 table-footer-dashboard"
             >
               <span> Rows per page: </span>
-              <select class="pt-2 pb-2 pl-6 pr-6 footer-select-dashboard">
+              <select class="pt-1 pb-2 pl-6 pr-6 footer-select-dashboard">
                 <option>10</option>
                 <option>20</option>
                 <option>50</option>
