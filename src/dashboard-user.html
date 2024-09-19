@@ -22,5 +22,104 @@
     <link rel="stylesheet" href="styles/variable.css" />
     <link rel="stylesheet" href="styles/util.css" />
   </head>
-  <body></body>
+  <body class="body-dashboard poppins-regular">
+    <header class="header-dashboard p-3 pr-10">
+      <nav class="nav-dashboard flex-items-center gap-4">
+        <img src="images/kimi.png" alt="user-pic" class="user-picture" />
+        <div class="inner-dashboard">
+          <p class="poppins-medium">Kimi Dandy</p>
+          <span> Admin </span>
+        </div>
+        <img src="images/arrow-bottom.png" class="arrow-bottom" />
+      </nav>
+    </header>
+    <aside class="aside-dashboard flex-column gap-16 p-8">
+      <div class="container-logo-dashboard flex-items-center gap-5">
+        <img src="images/logo-1.png" alt="logo" />
+        <p class="poppins-bold">Chatbot Layanan Konseling</p>
+      </div>
+      <div class="container-link-item-dashboard flex-column gap-4">
+        <a
+          href="#"
+          class="inner-link-item-dashboard-active flex-items-center p-3 gap-4"
+        >
+          <img src="images/data-histogram.png" alt="data-histogram" />
+          <p class="poppins-medium">Data Input</p>
+        </a>
+        <a
+          href="#"
+          class="inner-link-item-dashboard flex-items-center p-3 gap-4"
+        >
+          <img src="images/user-group.png" alt="user-group" />
+          <p class="poppins-medium">Data User</p>
+        </a>
+      </div>
+    </aside>
+    <main class="main-dashboard gap-4 flex-column">
+      <div class="container-main-title-dashboard flex-column">
+        <h1 class="poppins-medium text-3xl">Data Input</h1>
+        <p>Home / Data Input</p>
+      </div>
+      <div class="container-table-dashboard">
+        <div
+          class="inner-container-table-dashboard pt-8 pb-4 flex-column gap-8"
+        >
+          <div class="pl-4">
+            <button class="primary-button">+ Add New Data</button>
+          </div>
+          <div class="container-table">
+            <table class="table-dashboard">
+              <thead class="thead-dashboard">
+                <tr>
+                  <th class="text-left"><input type="checkbox" /></th>
+                  <th class="text-left">Nama File</th>
+                  <th>Type</th>
+                  <th class="date-col">Date Added</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody class="tbody-dashboard">
+                <tr>
+                  <td data-label="" class="text-left">
+                    <input type="checkbox" />
+                  </td>
+                  <td data-label="Nama File" class="text-left">
+                    <p>Penyuluhan_Mental_Health_Upaya_untuk_Men.pdf</p>
+                  </td>
+                  <td data-label="Type">
+                    <p>PDF</p>
+                  </td>
+                  <td data-label="Date Added">
+                    <p>20 July 2024</p>
+                  </td>
+                  <td data-label="Action">
+                    <div
+                      class="flex-items-center flex-justify-center gap-2 container-action-dashboard"
+                    >
+                      <button>
+                        <img src="images/bin.png" alt="bin" />
+                      </button>
+                      <button>
+                        <img src="images/info.png" alt="info" />
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div
+              class="pl-4 pt-6 flex-items-center gap-4 table-footer-dashboard"
+            >
+              <span> Rows per page: </span>
+              <select class="pt-2 pb-2 pl-6 pr-6 footer-select-dashboard">
+                <option>10</option>
+                <option>20</option>
+                <option>50</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

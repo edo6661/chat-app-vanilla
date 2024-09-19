@@ -1,9 +1,215 @@
-/* nav */
-.nav-container {
-  width: 1533px;
-  height: 42px;
+/* dashboard */
+.body-dashboard {
+  background-color: var(--ghost-white);
+  position: relative;
+  min-height: 120vh;
+}
+/* header */
+.header-dashboard {
+  background-color: var(--white);
+  box-shadow: var(--primary-shadow);
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
 }
 
-.test-white {
+.nav-dashboard {
+}
+.inner-dashboard {
+}
+
+.inner-dashboard > span {
+  color: var(--medium-gray);
+}
+
+.user-picture {
+  width: 64px;
+  border-radius: 50%;
+}
+
+.arrow-bottom {
+  width: 16px;
+}
+
+/* aside */
+
+.aside-dashboard {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: var(--tertiary-shadow);
+  z-index: 10;
+  width: var(--width-dashboard-aside);
+  background-color: var(--white);
+}
+
+.container-logo-dashboard {
+}
+.container-logo-dashboard > p {
+  color: var(--primary-dark-blue);
+}
+
+.container-link-item-dashboard > a {
+  width: 100%;
+  transition: background-color var(--primary-transition-shorthand);
+}
+
+.container-link-item-dashboard > a:hover {
+  background-color: var(--secondary-color-soft);
+}
+.inner-link-item-dashboard-active {
+  background-color: var(--secondary-color-soft);
+}
+.container-link-item-dashboard > a > p {
+  color: var(--secondary-dim-gray);
+}
+
+.inner-link-item-dashboard-active > p {
+  color: var(--primary-dark-blue) !important;
+}
+
+/* main */
+.main-dashboard {
+  padding: var(--padding-dashboard-main);
+}
+.container-main-title-dashboard > p {
+  color: var(--tertiary-dim-gray);
+}
+.primary-button {
+  background-color: var(--secondary-blue);
   color: var(--white);
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  border-radius: 1rem;
+}
+
+/* table */
+.container-table-dashboard {
+  background-color: var(--white);
+  box-shadow: var(--quaternary-shadow);
+  border-radius: 17px;
+  overflow-x: auto;
+}
+.container-table-dashboard {
+  /* overflow-x: auto; */
+}
+/* scrollbar */
+
+.container-table-dashboard::-webkit-scrollbar {
+  background-color: var(--secondary-muted);
+  height: 12px;
+  border-radius: 10px;
+}
+.container-table-dashboard::-webkit-scrollbar-thumb {
+  background-color: var(--light-gray);
+  border-radius: 10px;
+}
+.container-table-dashboard::-webkit-scrollbar-track {
+  background-color: var(--secondary-muted);
+  border-radius: 10px;
+}
+/*  */
+.container-table-dashboard .table-dashboard {
+  width: 100%;
+  border-collapse: collapse;
+}
+.thead-dashboard {
+  background-color: var(--alice-blue);
+}
+
+.thead-dashboard > tr > th,
+.tbody-dashboard > tr > td {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--primary-dim-gray);
+}
+
+.thead-dashboard > tr > th {
+  font-weight: 600;
+}
+.tbody-dashboard > tr > td {
+  font-weight: 400;
+}
+.date-col {
+  min-width: 112px;
+}
+
+.footer-select-dashboard {
+  border: var(--secondary-border-input);
+  background-color: var(--quaternary-dim-gray);
+}
+/* take care aside */
+@media screen and (max-width: 800px) {
+  .aside-dashboard {
+    display: none !important;
+  }
+  .main-dashboard {
+    padding: 0;
+  }
+}
+
+/* take care main  */
+@media screen and (max-width: 800px) {
+  .main-dashboard {
+    padding-top: var(--padding-y-dashboard-main);
+  }
+  .main-dashboard,
+  .container-table-dashboard {
+    padding-inline: 1rem;
+  }
+}
+
+/* responsive table */
+@media screen and (max-width: 800px) {
+  .table-dashboard thead {
+    display: none;
+  }
+
+  .table-dashboard,
+  .table-dashboard tbody,
+  .table-dashboard tr,
+  .table-dashboard td {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+  }
+
+  .table-dashboard td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .table-dashboard tr {
+    margin-bottom: 15px;
+  }
+
+  .thead-dashboard > tr > th,
+  .tbody-dashboard > tr > td {
+    padding: 4px;
+  }
+
+  .table-dashboard td::before {
+    content: attr(data-label);
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+  }
+  .tbody-dashboard > tr > td > p {
+    text-align: left;
+  }
+
+  .container-action-dashboard {
+    justify-content: start !important;
+  }
 }

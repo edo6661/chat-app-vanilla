@@ -18,6 +18,11 @@
   justify-content: space-between;
 }
 
+.flex-justify-around {
+  display: flex;
+  justify-content: space-around;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -453,4 +458,20 @@
 
 .text-6xl {
   font-size: 3.75rem; /* 60px */
+}
+
+/* text-align */
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+/* width */
+.w-full {
+  width: 100%;
 }
