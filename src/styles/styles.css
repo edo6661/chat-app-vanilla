@@ -49,6 +49,7 @@
 }
 
 .container-logo-dashboard {
+  width: 100%;
 }
 .container-logo-dashboard > p {
   color: var(--primary-dark-blue);
