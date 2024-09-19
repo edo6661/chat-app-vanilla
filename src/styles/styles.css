@@ -1,0 +1,9 @@
+/* nav */
+.nav-container {
+  width: 1533px;
+  height: 42px;
+}
+
+.test-white {
+  color: var(--white);
+}
