@@ -585,3 +585,132 @@
   text-align: right;
   color: var(--tertiary-dim-gray);
 }
+
+/* testimoni */
+.container-testimoni {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  background-color: var(--quarter-dark-blue);
+  overflow-y: hidden;
+}
+.left-testimoni,
+.left-testimoni > div {
+  display: flex;
+  flex-direction: column;
+}
+.left-testimoni {
+  gap: 37px;
+  align-items: center;
+  color: var(--white);
+  justify-content: center;
+  width: fit-content;
+  margin-inline: auto;
+}
+.left-testimoni > div {
+  gap: 7px;
+  max-width: 462px;
+}
+.left-testimoni > div > h4 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+.left-testimoni > div > p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.left-testimoni > button {
+  align-self: start;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+}
+.right-testimoni {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.inner-left-testimoni,
+.inner-right-testimoni {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+.inner-left-testimoni > div,
+.inner-right-testimoni > div {
+  background-color: var(--primary-color-soft);
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 267.03px;
+}
+
+.inner-left-testimoni > div > div > h6,
+.inner-right-testimoni > div > div > h6 {
+  font-size: 12.19px;
+  font-weight: 600;
+  line-height: 18.29px;
+  text-align: left;
+}
+.inner-left-testimoni > div > div > p,
+.inner-right-testimoni > div > div > p {
+  font-size: 9.75px;
+  font-weight: 400;
+  line-height: 14.63px;
+  text-align: left;
+}
+.inner-left-testimoni > div > div > img,
+.inner-right-testimoni > div > div > img {
+  width: 26.82px;
+  height: 26.82px;
+}
+
+.details-inner-testimoni {
+  display: flex;
+  flex-direction: row !important;
+  gap: 0.5rem;
+  align-items: center;
+}
+.details-inner-testimoni > div > h6 {
+  font-size: 7.32px;
+  font-weight: 600;
+  line-height: 10.97px;
+  text-align: left;
+}
+.details-inner-testimoni > div > p {
+  color: var(--tertiary-muted);
+  font-size: 6.1px;
+  font-weight: 400;
+  line-height: 9.14px;
+  text-align: left;
+}
+
+.first-inner-left-testimoni {
+  position: absolute;
+  top: -1rem;
+  z-index: 0;
+}
+.second-inner-left-testimoni {
+  margin-top: 8rem;
+}
+.third-inner-left-testimoni {
+  margin-bottom: 22px;
+}
+
+.first-inner-right-testimoni {
+  margin-top: 33px;
+}
+.third-inner-right-testimoni {
+  position: absolute;
+  bottom: -4rem;
+}
