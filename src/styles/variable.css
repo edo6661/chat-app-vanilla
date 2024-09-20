@@ -50,6 +50,9 @@
   --secondary-border-input: 1px solid #c7c7c7;
   --tertiary-border-input: 1px solid var(--divider);
 
+  /* transition */
+  --primary-transition-shorthand: 200ms ease-in-out;
+
   /* dashboard */
   --height-dashboard-nav: 88px;
   --width-dashboard-aside: calc(349px - 2rem);
@@ -77,6 +80,24 @@
       var(--actual-padding-top-hero)
   );
 
-  /* transition */
-  --primary-transition-shorthand: 200ms ease-in-out;
+  /* mental heath section */
+  --padding-top-mental-health: 47px;
+
+  /* feature section */
+  --padding-top-feature: 108px;
+  --padding-bottom-feature: 139px;
+
+  /* teenager section */
+  --padding-top-teenager: 61px;
+
+  /* percentage section */
+  --padding-top-percentage: 103px;
+  --padding-botton-percentage: 293px;
+
+  /* banner section */
+  --padding-top-banner: 107px;
+  --padding-bottom-banner: 234px;
+
+  /* footer */
+  --padding-top-footer: 53px;
 }
