@@ -1035,6 +1035,7 @@
   line-height: 24px;
   text-align: left;
 }
+
 .card-banner-team > button {
   font-size: 16px;
   font-weight: 500;
@@ -1042,4 +1043,134 @@
   width: fit-content;
   padding-inline: 1.5rem;
   color: var(--primary-dark-blue);
+}
+
+/* footer */
+
+.container-footer-landing {
+  background-color: var(--secondary-black);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: var(--white);
+  padding-top: var(--padding-top-footer);
+  padding-bottom: 1.5rem;
+  margin-inline-start: auto;
+}
+.top-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin-inline: auto;
+}
+/* left */
+.left-footer,
+.left-footer > div {
+  display: flex;
+  flex-direction: column;
+}
+.left-footer {
+  gap: 27px;
+}
+.left-footer > div:first-child {
+  gap: 8px;
+}
+.left-footer > div:last-child {
+  gap: 2px;
+}
+
+.left-footer > div > h6 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 30px;
+}
+.left-footer > div:first-child > div > img {
+  width: 43px;
+}
+
+.left-footer > div:first-child > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.left-footer > div:first-child > div > h6 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+/* mid */
+.mid-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.mid-footer > h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.mid-footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.mid-footer > div > p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18.62px;
+}
+/* right */
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.right-footer > div:first-child {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+.right-footer > div:first-child > img {
+  width: 49px;
+}
+.right-footer > div:first-child > p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+}
+.right-footer > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.right-footer > div:last-child > h6 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.right-footer > div:last-child > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.right-footer > div:last-child > div > img {
+  width: 35px;
+}
+
+/* .bottom-footer {
+} */
+.bottom-footer > p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+
+  text-align: center;
 }
