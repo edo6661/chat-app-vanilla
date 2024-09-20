@@ -1,7 +1,8 @@
 /* btn */
 .primary-button,
 .secondary-button,
-.tertiary-button {
+.tertiary-button,
+.quaternary-button {
   cursor: pointer;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
@@ -17,6 +18,9 @@
 .tertiary-button {
   background-color: var(--primary-color-soft);
   color: var(--primary-blue);
+}
+.quaternary-button {
+  background-color: var(--primary-dark-blue);
 }
 /* flex util */
 .flex {
