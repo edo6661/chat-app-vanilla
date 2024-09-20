@@ -518,3 +518,70 @@
 .right-mental-health > .girl-laptop {
   width: 666px;
 }
+/* feature */
+.container-feature {
+  padding-top: var(--padding-top-feature);
+  padding-bottom: var(--padding-bottom-feature);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left-feature {
+  margin-inline: auto;
+}
+.left-feature > img {
+  margin-top: 66px;
+  width: 521px;
+  height: 657px;
+}
+.right-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  max-width: 637px;
+}
+.right-feature > h3 {
+  font-family: DM Serif Display;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 87.74px;
+  text-align: right;
+}
+.right-feature > h3 > span {
+  color: var(--primary-blue);
+}
+.inner-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: end;
+}
+.inner-feature > .circle-number {
+  width: 71px;
+  height: 71px;
+  background: var(--primary-dark-blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-feature > .circle-number span {
+  display: block;
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--white);
+}
+.inner-feature > h6 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: right;
+}
+.inner-feature > p {
+  text-align: end;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  color: var(--tertiary-dim-gray);
+}
