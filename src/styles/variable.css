@@ -57,6 +57,15 @@
     var(--padding-right-dashboard-main) 0
     calc(var(--width-dashboard-aside) + var(--padding-left-dashboard-main));
 
+    /* landing */
+  --padding-top-nav-landing: 53px;
+  --padding-left-nav-landing: 97px;
+  --padding-right-nav-landing: 98px;
+  --height-nav-landing: 42px;
+  
+  --padding-top-hero: calc(var(--padding-top-nav-landing) + var(--height-nav-landing) + 31px);
+
+
   /* transition */
   --primary-transition-shorthand: 200ms ease-in-out;
 }

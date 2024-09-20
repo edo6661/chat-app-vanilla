@@ -249,4 +249,45 @@
 
 /* header */
 .header-landing {
+  position: fixed;
+  width: 100%;
+  padding-top: var(--padding-top-nav-landing);
+  padding-left: var(--padding-left-nav-landing);
+  padding-right: var(--padding-right-nav-landing);
+}
+.nav-landing,
+.middle-nav {
+  justify-content: space-between;
+}
+.nav-landing,
+.left-nav,
+.middle-nav {
+  display: flex;
+  align-items: center;
+}
+.left-nav,
+.middle-nav {
+  gap: 30px;
+}
+.nav-landing > .left-nav > img {
+  width: 46px;
+}
+.left-nav > span,
+.left-nav > p {
+  color: var(--white);
+}
+
+.right-nav > button {
+  padding-inline: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* hero landing page */
+.container-hero-landing {
+  padding-top: var(--padding-top-hero);
+  /* background-color: var(--secondary-color-soft); */
+  background: red;
 }
