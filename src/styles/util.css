@@ -1,3 +1,19 @@
+/* btn */
+.primary-button,
+.secondary-button {
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  color: var(--white);
+  /* width: 100%; */
+}
+.primary-button {
+  background-color: var(--secondary-blue);
+}
+.secondary-button {
+  background-color: var(--bg-in-the-dark);
+}
 /* flex util */
 .flex {
   display: flex;
