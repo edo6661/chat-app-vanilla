@@ -1601,6 +1601,9 @@
 
 .container-team > div > div:not(:first-child) {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 .container-team > div > div > h6 {
   font-size: 20px;
@@ -1702,21 +1705,21 @@
     text-align: left;
   }
   .container-team > div > div > h6 {
-    font-size: 14.36px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 21.54px;
+    line-height: 24px;
     text-align: left;
   }
   .container-team > div > div > p {
-    font-size: 10.05px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 15.08px;
+    line-height: 18px;
     text-align: left;
   }
   .container-team > div > div > span {
-    font-size: 10.05px;
+    font-size: 12px;
     font-weight: 500;
-    line-height: 15.08px;
+    line-height: 16px;
     text-align: left;
   }
 }
@@ -1755,21 +1758,21 @@
     text-align: left;
   }
   .container-team > div > div > h6 {
-    font-size: 7.69px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 11.53px;
+    line-height: 18px;
     text-align: left;
   }
   .container-team > div > div > p {
-    font-size: 5.38px;
+    font-size: 12px;
     font-weight: 500;
-    line-height: 8.07px;
+    line-height: 16px;
     text-align: left;
   }
   .container-team > div > div > span {
-    font-size: 5.38px;
+    font-size: 10px;
     font-weight: 500;
-    line-height: 8.07px;
+    line-height: 12px;
     text-align: left;
   }
   .card-banner-team {
