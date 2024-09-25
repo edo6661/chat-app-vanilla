@@ -657,10 +657,7 @@
   justify-content: center;
   align-items: center;
 }
-.details-inner-left-mental-health > .circle > img {
-  width: 38px;
-  height: 38px !important;
-}
+
 /* right */
 
 .right-mental-health {
@@ -681,6 +678,22 @@
   .right-mental-health > .girl-laptop {
     width: 445.23px;
     height: 429.18px;
+  }
+  .details-inner-left-mental-health > .circle {
+    width: 48px;
+    height: 48px;
+  }
+  .clock {
+    width: 38px;
+    height: 38px;
+  }
+  .language {
+    width: 26px;
+    height: 26px;
+  }
+  .puzzle {
+    width: 31px;
+    height: 31px;
   }
 }
 @media screen and (max-width: 744px) {
@@ -713,9 +726,17 @@
     width: 48px;
     height: 48px;
   }
-  .details-inner-left-mental-health > .circle > img {
+  .clock {
     width: 38px;
     height: 38px;
+  }
+  .language {
+    width: 26px;
+    height: 26px;
+  }
+  .puzzle {
+    width: 31px;
+    height: 31px;
   }
   .right-mental-health > .girl-laptop {
     width: 308.23px;
@@ -790,9 +811,17 @@
     width: 30.99px;
     height: 30.99px;
   }
-  .details-inner-left-mental-health > .circle > img {
-    width: 24.53px;
+  .clock {
+    width: 24.53;
     height: 24.53px;
+  }
+  .language {
+    width: 16.79px;
+    height: 16.79px;
+  }
+  .puzzle {
+    width: 20.01px;
+    height: 20.01px;
   }
 }
 /* feature */
