@@ -81,7 +81,7 @@
   --padding-right-nav-landing: 98px;
   --height-nav-landing: 42px;
 
-  --actual-padding-top-hero: 144px;
+  --actual-padding-top-hero: 42px;
   --padding-top-hero: calc(
     var(--padding-top-nav-landing) + var(--height-nav-landing) +
       var(--actual-padding-top-hero)
@@ -107,4 +107,10 @@
 
   /* footer */
   --padding-top-footer: 53px;
+
+  /* screens */
+  --sm: 430px;
+  --md: 744px;
+  --lg: 1024px;
+  --xl: 1280px;
 }

@@ -1,3 +1,16 @@
+/* display */
+.hidden {
+  display: none;
+}
+.appear-at-md {
+  display: none;
+}
+@media screen and (max-width: 744px) {
+  .appear-at-md {
+    display: block;
+  }
+}
+
 /* btn */
 .primary-button,
 .secondary-button,
