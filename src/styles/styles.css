@@ -535,8 +535,8 @@
   }
   .container-hero-landing .left-landing .inner-left-landing > button {
     margin-inline: auto;
-    padding: 0.5rem 1rem;
-    font-size: 8px;
+    padding: 0.3rem 0.5rem;
+    font-size: 6px;
     gap: 0.3rem;
   }
   .inner-left-landing > button > span {
