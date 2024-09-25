@@ -1142,11 +1142,11 @@
 .fifth-item-teenager > button {
   cursor: pointer;
   padding: 0.3rem 0.7rem;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--white);
   background-color: var(--primary-dark-blue);
   font-family: Poppins;
-  font-size: 10px;
+  font-size: 11.77px;
   font-weight: 600;
   line-height: 15px;
   text-align: center;
@@ -1242,7 +1242,7 @@
     text-align: center;
   }
   .inner-teenager > div > button {
-    font-size: 4px;
+    font-size: 7.84px;
     font-weight: 600;
     line-height: 8.66px;
     text-align: center;
@@ -1279,11 +1279,11 @@
     row-gap: 8px;
   }
   .inner-teenager > div > button {
-    font-size: 3px;
+    font-size: 5.77px;
     font-weight: 600;
     line-height: 6.75px;
     text-align: center;
-    padding: 0.3rem 0.7rem;
+    padding: 0.2rem 0.5rem;
   }
   .teenager-title > h5 {
     font-size: 25.16px;
@@ -1308,6 +1308,7 @@
   padding-bottom: var(--padding-botton-percentage);
   gap: 65px;
   margin-inline: auto;
+  padding-inline: 1.5rem;
 }
 /* first inner */
 .first-inner-percentage-teenager {
@@ -1315,9 +1316,10 @@
   gap: 41px;
   align-items: center;
   justify-content: center;
-  /* width: calc(263px + 614px); */
   margin-inline: auto;
+  max-width: 1149px;
 }
+
 .first-inner-percentage-teenager > h6 {
   font-family: DM Serif Display;
   font-size: 96px;
@@ -1341,7 +1343,7 @@
   justify-content: center;
   gap: 1rem;
   padding-block: 76px;
-  /* width: 1149px; */
+  max-width: 1280px;
   width: 100%;
   margin-inline: auto;
 }
@@ -1470,8 +1472,8 @@
   padding-top: var(--padding-top-team);
   padding-bottom: var(--padding-bottom-team);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 426px));
-  gap: 75px;
+  grid-template-columns: repeat(auto-fit, 384px);
+  gap: 32px;
   margin-inline: auto;
   align-items: center;
   justify-content: center;
@@ -1561,12 +1563,30 @@
 
 @media screen and (max-width: 744px) {
   .container-team {
-    grid-template-columns: repeat(auto-fit, 384px);
+    grid-template-columns: repeat(auto-fit, 275px);
+    gap: 24px;
+  }
+  .card-person {
+    height: 100%;
+  }
+
+  .card-person > div > img {
+    width: 100%;
+    height: 377px;
   }
 }
 @media screen and (max-width: 430px) {
   .container-team {
-    grid-template-columns: repeat(auto-fit, 275.77px);
+    grid-template-columns: repeat(auto-fit, 163px);
+    gap: 16px;
+  }
+  .card-person {
+    height: 100%;
+  }
+
+  .card-person > div > img {
+    width: 100%;
+    height: 224px;
   }
 }
 
