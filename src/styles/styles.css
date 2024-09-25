@@ -742,7 +742,7 @@
 
   .left-mental-health .container-title h2 {
     font-family: DM Serif Display;
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 400;
     line-height: 49.36px;
     text-align: left;
@@ -770,7 +770,7 @@
 @media screen and (max-width: 430px) {
   .left-mental-health .container-title h2 {
     font-family: DM Serif Display;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 400;
     line-height: 49.36px;
     text-align: left;
