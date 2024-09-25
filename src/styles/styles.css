@@ -305,8 +305,33 @@
     padding: 1rem 1.5rem;
   }
 }
+@media screen and (max-width: 744px) {
+  .nav-landing > .left-nav > img {
+    width: 35.72px;
+    height: 32.61px;
+  }
+  .left-nav > span,
+  .left-nav > p {
+    font-size: 12.42px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18.64px;
+    text-align: left;
+  }
+}
 /* iphone */
 @media screen and (max-width: 430px) {
+  .nav-landing > .left-nav > img {
+    width: 26.32px;
+    height: 24.03px;
+  }
+  .left-nav > span,
+  .left-nav > p {
+    font-size: 9.15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 13.73px;
+  }
   .middle-nav,
   .right-nav > button {
     display: none;
@@ -680,8 +705,22 @@
     justify-content: center;
     align-items: center;
   }
-}
-@media screen and (max-width: 430px) {
+  .details-inner-left-mental-health > .circle {
+    width: 48px;
+    height: 48px;
+  }
+  .details-inner-left-mental-health > .circle > img {
+    width: 38px;
+    height: 38px;
+  }
+  .right-mental-health > .girl-laptop {
+    width: 308.23px;
+    height: 297.13px;
+  }
+  .right-mental-health > .gate {
+    width: 204.89px;
+    height: 306px;
+  }
   .left-mental-health .container-title h2 {
     font-family: DM Serif Display;
     font-size: 36px;
@@ -693,7 +732,7 @@
     > .details-inner-left-mental-health
     > .description
     > .title {
-    font-size: 12.91px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 19.37px;
     text-align: center;
@@ -703,10 +742,53 @@
     > .description
     > .subtitle {
     font-family: Lexend;
-    font-size: 8.39px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 10.66px;
+    line-height: 14px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 430px) {
+  .right-mental-health > .girl-laptop {
+    width: 233.87px;
+    height: 225.44px;
+  }
+  .right-mental-health > .gate {
+    width: 155.46px;
+    height: 232.18px;
+  }
+  .left-mental-health .container-title h2 {
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.36px;
+    text-align: left;
+  }
+  .inner-details-mental-health
+    > .details-inner-left-mental-health
+    > .description
+    > .title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.37px;
+    text-align: center;
+  }
+  .inner-details-mental-health
+    > .details-inner-left-mental-health
+    > .description
+    > .subtitle {
+    font-family: Lexend;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .details-inner-left-mental-health > .circle {
+    width: 30.99px;
+    height: 30.99px;
+  }
+  .details-inner-left-mental-health > .circle > img {
+    width: 24.53px;
+    height: 24.53px;
   }
 }
 /* feature */
@@ -806,13 +888,13 @@
     align-items: center;
   }
   .details-feature > .inner-feature > h6 {
-    font-size: 29.65px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 44.47px;
     text-align: center;
   }
   .details-feature > .inner-feature > p {
-    font-size: 14.82px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 22.24px;
     text-align: center;
@@ -829,12 +911,12 @@
     gap: 1rem;
   }
   .details-feature > .inner-feature > h6 {
-    font-size: 18.01px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 27.01px;
   }
   .details-feature > .inner-feature > p {
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 13.51px;
     text-align: center;
@@ -1094,9 +1176,9 @@
 }
 .inner-teenager > div {
   position: relative;
-  width: fit-content;
-
-  justify-self: end;
+  /* width: fit-content;
+  justify-self: end; */
+  width: 100%;
 }
 /* first item */
 .first-item-teenager {
@@ -1141,7 +1223,7 @@
 .fourth-item-teenager > button,
 .fifth-item-teenager > button {
   cursor: pointer;
-  padding: 0.3rem 0.7rem;
+  padding: 0.5rem 1rem;
   font-size: 14px;
   color: var(--white);
   background-color: var(--primary-dark-blue);
@@ -1151,6 +1233,7 @@
   line-height: 15px;
   text-align: center;
 }
+
 .first-item-teenager > p,
 .first-item-teenager > button,
 .second-item-teenager > p,
@@ -1169,7 +1252,7 @@
   bottom: 108px;
 }
 .first-item-teenager > button {
-  bottom: 76px;
+  bottom: 68px;
   right: 29px;
 }
 
@@ -1177,9 +1260,10 @@
 .second-item-teenager {
   grid-column: span 2;
 }
+
 .second-item-teenager > p {
   left: 23px;
-  bottom: 66px;
+  bottom: 80px;
 }
 .second-item-teenager > button {
   bottom: 37px;
@@ -1190,6 +1274,7 @@
   grid-column: 1/2;
   grid-row: 3/4;
 }
+
 .third-item-teenager > p,
 .fourth-item-teenager > p {
   left: 19px;
@@ -1197,7 +1282,7 @@
 }
 .third-item-teenager > button,
 .fourth-item-teenager > button {
-  bottom: 42px;
+  bottom: 30px;
   left: 19px;
 }
 /* fourth item */
@@ -1210,6 +1295,7 @@
   grid-column: 3/5;
   grid-row: 2/4;
 }
+
 .fifth-item-teenager > p {
   left: 23px;
   top: 23px;
@@ -1225,10 +1311,10 @@
 
 @media screen and (max-width: 744px) {
   .container-teenager {
-    padding-inline: 1rem;
+    padding-inline: 0.5rem;
   }
   .inner-teenager {
-    column-gap: 19px;
+    column-gap: 12px;
     row-gap: 17px;
   }
   .first-item-teenager > p,
@@ -1236,15 +1322,14 @@
   .third-item-teenager > p,
   .fourth-item-teenager > p,
   .fifth-item-teenager > p {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 27.72px;
     text-align: center;
   }
   .inner-teenager > div > button {
-    font-size: 7.84px;
+    font-size: 12px;
     font-weight: 600;
-    line-height: 8.66px;
     text-align: center;
     padding: 0.3rem 0.7rem;
   }
@@ -1255,10 +1340,23 @@
     text-align: left;
   }
   .teenager-title > p {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
+  }
+  .third-item-teenager > button,
+  .fourth-item-teenager > button {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .inner-teenager > div > button {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.3rem 0.7rem;
   }
 }
 
@@ -1271,7 +1369,7 @@
   .third-item-teenager > p,
   .fourth-item-teenager > p,
   .fifth-item-teenager > p {
-    font-size: 10px;
+    font-size: 16px;
     line-height: 24px;
   }
   .inner-teenager {
@@ -1279,20 +1377,19 @@
     row-gap: 8px;
   }
   .inner-teenager > div > button {
-    font-size: 5.77px;
+    font-size: 8px;
     font-weight: 600;
     line-height: 6.75px;
     text-align: center;
-    padding: 0.2rem 0.5rem;
   }
   .teenager-title > h5 {
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 34.49px;
     text-align: left;
   }
   .teenager-title > p {
-    font-size: 12.58px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 18.87px;
     text-align: left;
