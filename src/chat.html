@@ -21,8 +21,9 @@
     <link rel="stylesheet" href="styles/font.css" />
     <link rel="stylesheet" href="styles/color.css" />
     <link rel="stylesheet" href="styles/util.css" />
+    <link rel="stylesheet" href="styles/variable.css" />
   </head>
-  <body>
+  <body class="body-chat poppins-regular">
     <!-- <a href="index.html"> index </a>
     <a href="dashboard-input.html"> input </a>
     <a href="dashboard-user.html"> user </a> -->
@@ -33,13 +34,19 @@
             <img src="images/logo.png" alt="Logo" />
           </div>
           <div>
-            <p>Chatbot</p>
+            <h6>Chatbot</h6>
             <p>Layanan Konseling</p>
           </div>
           <hr />
           <div class="bottom-inner-aside-chat">
-            <button>Room Chat</button>
-            <button>Keluar</button>
+            <button class="gradient">
+              <img src="images/wpf_chat.png" alt="Wpf Chat" />
+              <span> Room Chat </span>
+            </button>
+            <button class="plain">
+              <img src="images/log-out-circle.png" alt="Log Out" />
+              <span> Keluar </span>
+            </button>
           </div>
         </div>
         <div class="bottom-aside-chat">
@@ -47,10 +54,10 @@
             <img src="images/Group.png" alt="User Group" />
           </div>
           <div class="user-credentials">
-            <img src="images/subtract.png" alt="Subtract" />
-            <p>Kimi Dandy</p>
+            <!-- <img src="images/subtract.png" alt="Subtract" /> -->
+            <h6>Kimi Dandy</h6>
             <p>User</p>
-            <p>Logout</p>
+            <a href="#">Logout</a>
           </div>
         </div>
       </div>
@@ -58,32 +65,48 @@
     <main class="container-room-chat">
       <div class="inner-room-chat">
         <div class="title-room-chat">
+          <a href="index.html">
+            <img
+              src="images/left-arrow.png"
+              alt="Back"
+              class="appear-at-lg arrow"
+            />
+          </a>
+          <div class="container-logo-chat appear-at-lg">
+            <img src="images/logo.png" alt="Logo" class="logo-chat" />
+          </div>
           <h1>Chatbot Konseling</h1>
           <hr />
         </div>
-        <div class="first-bubble">
-          <img src="images/Group.png" alt="User 1" />
-          <div>
-            <p>
-              Hai, saya sedang berantem dengan pacar saya karena masalah sepele.
-              Saya capek dengan dia
-            </p>
+        <div class="details-room-chat">
+          <div class="first-bubble">
+            <div>
+              <p>
+                Hai, saya sedang berantem dengan pacar saya karena masalah
+                sepele. Saya capek dengan dia
+              </p>
+            </div>
+            <div class="circle-gradient">
+              <img src="images/Group.png" alt="User 1" />
+            </div>
           </div>
-        </div>
-        <div class="second-bubble">
-          <img src="images/logo.png" alt="User 1" />
-          <div>
-            <p>
-              Halo, sudah bicarakan baik baik dengan pacar kamu? Mungkin saja
-              itu hanya salah paham karena komunikasi kalian yang kurang baik.
-              Hilangkan egois di antara kalian berdua dan coba untuk memahami
-              satu sama lain
-            </p>
+          <div class="second-bubble">
+            <div class="circle-gradient">
+              <img src="images/logo.png" alt="User 1" />
+            </div>
+            <div>
+              <p>
+                Halo, sudah bicarakan baik baik dengan pacar kamu? Mungkin saja
+                itu hanya salah paham karena komunikasi kalian yang kurang baik.
+                Hilangkan egois di antara kalian berdua dan coba untuk memahami
+                satu sama lain
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="action-chat">
-          <input type="text" placeholder="Tuliskan Keluhan Kamu Disini" />
-          <img src="images/send.png" alt="Send" />
+          <div class="action-chat">
+            <input type="text" placeholder="Tuliskan Keluhan Kamu Disini" />
+            <img src="images/send.png" alt="Send" />
+          </div>
         </div>
       </div>
     </main>

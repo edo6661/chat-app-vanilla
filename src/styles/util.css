@@ -5,8 +5,17 @@
 .appear-at-md {
   display: none;
 }
+.appear-at-lg {
+  display: none;
+}
 @media screen and (max-width: 744px) {
   .appear-at-md {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .appear-at-lg {
     display: block;
   }
 }
