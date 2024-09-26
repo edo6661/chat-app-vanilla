@@ -2540,3 +2540,130 @@
     width: 86.64px;
   }
 }
+
+/* percentage */
+.container-banner {
+  position: relative;
+}
+.container-banner {
+  position: relative;
+  overflow: hidden;
+}
+.container-banner > img {
+  position: absolute;
+  z-index: 0;
+  width: 24px;
+}
+
+.container-banner > .cloud-1 {
+  left: 0.5rem;
+  bottom: 0;
+  width: 257px;
+}
+.container-banner > .cloud-2 {
+  right: 0.5rem;
+  bottom: 0;
+  width: 257px;
+}
+
+.container-banner > .first {
+  width: 5.73px;
+  height: 9.44px;
+  top: 21px;
+  left: 91px;
+}
+.container-banner > .second {
+  width: 6px;
+  height: 10px;
+  left: 60px;
+  bottom: 60px;
+}
+.container-banner > .third {
+  width: 6px;
+  height: 10px;
+  bottom: 28px;
+  left: 108px;
+}
+.container-banner > .fourth {
+  width: 6.07px;
+  height: 9.78px;
+  top: 20px;
+  right: 108px;
+}
+.container-banner > .fifth {
+  width: 6px;
+  height: 9px;
+  top: 48;
+  right: 80px;
+}
+.container-banner > .sixth {
+  width: 8px;
+  height: 14px;
+  bottom: 35px;
+  right: 100px;
+}
+
+@media screen and (max-width: 430px) {
+}
+
+@media screen and (max-width: 986px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .container-banner > .fifth {
+    bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .container-banner > .cloud-1,
+  .container-banner > .cloud-2 {
+    width: 191px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container-banner > .cloud-1,
+  .container-banner > .cloud-2 {
+    width: 86.64px;
+  }
+}
+
+/* chat */
+.container-aside-chat > img {
+  position: absolute;
+}
+
+.container-aside-chat > .moon {
+  width: 33.96px;
+  height: 39.43px;
+  left: 162px;
+  bottom: 307px;
+}
+
+.container-aside-chat > .first,
+.container-aside-chat > .second {
+  width: 18.34px;
+  height: 18.34px;
+}
+
+.container-aside-chat > .first {
+  left: 42px;
+  bottom: 304px;
+}
+.container-aside-chat > .second {
+  left: 105px;
+  bottom: 260px;
+}
+.container-aside-chat > .third {
+  width: 20.22px;
+  height: 20.22px;
+  left: 20px;
+  bottom: 205px;
+}
+.container-aside-chat > .fourth {
+  width: 24px;
+  height: 24px;
+  right: 0;
+  bottom: 212px;
+}
